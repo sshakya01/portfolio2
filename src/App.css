@@ -16,11 +16,11 @@
   text-align: center;
 }
 
- #sectionStyle{
+ /*#sectionStyle{
   width: 100%;
   height: 650px;
   background-image: url('images/homepage.jpg');
-};
+};*/
 
 ul {
   padding: 0 auto;
