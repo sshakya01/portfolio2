@@ -5,15 +5,18 @@
 .header {
   background-color: #034696;
   color: white;
+  width: 0 auto;
 }
 .footer {
+
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   /*padding: 1rem;*/
- background-color: #034696;
+  background-color: #034696;
   text-align: center;
+
 }
 
  /*#sectionStyle{
@@ -73,12 +76,16 @@ section {
 .Nav a {
   color: white;
   font-family: sans-serif;
+
+}
+.Nav a:hover {
+    background-color: black;
 }
 a{
   margin-right:5%;
   margin-left: 5%;
-
 }
+
 .snl a, .bucketlist a, .pantry a{
   margin-right:0;
   margin-left: 0;
@@ -109,6 +116,7 @@ margin: 5em auto;
 @media only screen and (max-width: 500px) {
   .projects{
     display:inline-block;
+    background-attachment: scroll;
   }
   .skill{
 width: 80%;

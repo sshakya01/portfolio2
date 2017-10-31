@@ -9,7 +9,6 @@ class Projects extends Component {
       <div>
        <h1>My Projects</h1>
       <div className="projects">
-
         <div className="snl">
           <a href='http://snakesandladder.bitballoon.com/'><img src={snl} alt="snakeboard"/>Snakes and Ladder</a>
         </div>
@@ -17,7 +16,7 @@ class Projects extends Component {
           <a href='https://still-river-98602.herokuapp.com/'><img src={bucketlist} alt="bucketlist"/>Bucket List</a>
         </div>
         <div className="pantry">
-          <a href=''><img src={pantry} alt="pantry"/>Pantry app</a>
+          <a href='https://pantry2.herokuapp.com/'><img src={pantry} alt="pantry"/>Pantry app</a>
         </div>
       </div>
       </div>
