@@ -16,10 +16,7 @@ class Home extends Component {
           <div className="intro">
             <h1>Hi I am Sajil Shakya</h1>
             <h3>Fullstack Developer | Biomedical Engineer </h3>
-
-              <p>I specialize in developing websites and applications compatible with mobile and desktop screen.</p>
             <div className="desc">
-            <h4>hello there</h4>
               <p>I specialize in developing websites and applications compatible with mobile and desktop screen.</p>
           </div>
           </div>
