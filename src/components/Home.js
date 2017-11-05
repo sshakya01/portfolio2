@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import Background from '../images/homepage.jpg';
 import Typist from 'react-typist';
 
-// var sectionStyle = {
-//   width: "100%",
-//   height: "700px",
-//   backgroundImage: `url(${Background})`
-// };
-
 class Home extends Component {
   render() {
     return (
