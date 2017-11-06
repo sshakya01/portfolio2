@@ -1,10 +1,11 @@
 {
-  "main.css": "static/css/main.a45c9375.css",
-  "main.css.map": "static/css/main.a45c9375.css.map",
-  "main.js": "static/js/main.a01ee7c1.js",
-  "main.js.map": "static/js/main.a01ee7c1.js.map",
+  "main.css": "static/css/main.5ed9d08c.css",
+  "main.css.map": "static/css/main.5ed9d08c.css.map",
+  "main.js": "static/js/main.b1951593.js",
+  "main.js.map": "static/js/main.b1951593.js.map",
   "static/media/bucketlist.png": "static/media/bucketlist.0ba9dbfe.png",
   "static/media/homepage.jpg": "static/media/homepage.1044bfbe.jpg",
   "static/media/pantry.png": "static/media/pantry.f6ef7490.png",
-  "static/media/snl.png": "static/media/snl.2b6fb58c.png"
+  "static/media/snl.png": "static/media/snl.2b6fb58c.png",
+  "static/media/tweedr.png": "static/media/tweedr.d399e1a4.png"
 }
