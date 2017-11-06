@@ -71,7 +71,7 @@ li {
 }
 .intro {
   text-align: center;
-  padding-top: 15%;
+  margin-top: 15%;
   color: white;
   font-size: xx-large;
 }
@@ -105,7 +105,7 @@ a{
 }
 .snl, .bucketlist, .pantry{
   display: flex;
-  border: 2px solid grey;
+  /*border: 5px solid grey;*/
   color:white;
   text-align: center;
   justify-content: space-between;
@@ -126,7 +126,8 @@ a{
   margin: 0 auto;
   text-align: center;
   width: 0 auto;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+  background-color:rgba(0,0,0,0.6);
 }
 
 .skill{
@@ -143,21 +144,52 @@ margin-top: 5%;
 .projectdesc {
   position: relative;
   overflow: hidden;
-  margin: 20px;
+  margin: 1.5%;
   background-color: steelblue;
   opacity:.9;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 .projectdesc > p {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100%;*/
   padding: 20px 10px;
-  background: inherit;
-  background-attachment: fixed;
+  /*background: inherit;*/
+  /*background-attachment: fixed;*/
 }
-.projectdesc > p ::before {
+.projectdesc > h4 {
+  padding: 20px 10px;
+}
+.projectdesc  a  i {
+  font-size: 300%;
+}
+.projectTitle >h1 {
+  text-align: center;
+  background-color:rgba(0,0,0,0.6);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  padding: 2%;
+}
+#sectionStyle{
+  transition: background-color 5s ease-in;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  padding: 2%;
+}
+.intro{
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 1%;
+}
+
+ @keyframes colorchange
+    {
+      100%  {background-color:rgba(255,0,0,0.6);}
+    }
+/*.projectdesc > p ::before {
   content: "";
   position: absolute;
   top: 0;
@@ -169,13 +201,13 @@ margin-top: 5%;
   -webkit-filter: blur(12px);
   filter: blur(12px);
   transform: scale(2) translateY(20px);
-}
-.projectdesc > header > h1 {
+}*/
+/*.projectdesc > header > h1 {
   margin: 0;
   color: white;
   position: relative;
   z-index: 1;
-}
+}*/
 
 * {
   box-sizing: border-box;

@@ -12,7 +12,7 @@ class Home extends Component {
             <h1>Hi I am Sajil Shakya</h1>
             <h3>Fullstack Developer | Biomedical Engineer </h3>
             <div className="desc">
-              <p>I specialize in developing websites and applications compatible with mobile and desktop screen.</p>
+              <p>I specialize in developing websites and applications compatible with mobile and desktop screens.</p>
           </div>
           </div>
         </Typist>

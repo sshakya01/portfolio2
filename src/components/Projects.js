@@ -6,7 +6,7 @@ import pantry from '../images/pantry.png';
 class Projects extends Component {
   render() {
     return(
-      <div>
+      <div className="projectTitle">
        <h1>My Projects</h1>
       <div className="projects">
         <div className="snl">
@@ -39,7 +39,7 @@ class Projects extends Component {
 
         <div className="pantry">
           <div className="projectdesc">
-            <a href='https://pantry2.herokuapp.com/'><img src={pantry} alt="pantry"/>Pantry app</a>
+            <a href='https://pantry2.herokuapp.com/'><img src={pantry} alt="pantry"/></a>
           </div>
           <div className="projectdesc">
             <h2>Pantry</h2>
