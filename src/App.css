@@ -203,8 +203,17 @@ h1{
   box-sizing: border-box;
 }
 @media only screen and (max-width: 500px) {
+  h3, p{
+    font-size: 1.5rem;
+  }
+.projectdesc > p{
+  font-size: .5rem;
+}
+.projectdesc > h2{
+  font-size: .9rem;
+}
   .snl{
-    display:inline-block;
+    /*display:inline-block;*/
     background-attachment: scroll;
   }
   .skill{

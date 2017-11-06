@@ -46,7 +46,8 @@ class Projects extends Component {
             <p>Pantry is an app that finds recipes depending on the food you have in your pantry. It makes API calls to food to fork and gives out the recipes depending on your input. The users will be able to add their favourite recipes. Users will also be able to add/delete items in their pantry. </p>
           </div>
           <div className="projectdesc">
-            <h2>Technologies used: </h2>
+            <h4>Technologies used: React, Express/Node, Postgres SQL, Food2Fork API, HTML, CSS.</h4>
+            <a href='https://github.com/P3G3/Project-3'><i className="fa fa-github" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
